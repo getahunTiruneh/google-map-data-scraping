@@ -39,5 +39,15 @@ Run the app and search for businesses like:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/google-map-data-scraping.git
+git clone https://github.com/getahuntiruneh/google-map-data-scraping.git
 cd google-map-data-scraping
+```
+### Project Structure
+google-map-data-scraping
+├── app.py
+├── data-extractor.py
+├── LICENSE
+├── output
+│   └── google_maps_data_hotel_Addis_Ababa.xlsx
+├── README.md
+└── requirements.txt
