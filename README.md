@@ -42,13 +42,21 @@ Run the app and search for businesses like:
 git clone https://github.com/getahuntiruneh/google-map-data-scraping.git
 cd google-map-data-scraping
 ```
+### 2. Set Up a Virtual Environment (Optional but Recommended)
+```bash
+python -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
+```
+### 3. Install Required Packages
+```bash
+pip install -r requirements.txt
+```
 ### Project Structure
 ```bash
 google-map-data-scraping
-├── app.py
-├── data-extractor.py
-├── LICENSE
-├── output
+├── app.py                        # Streamlit front-end
+├── data-extractor.py             # Selenium-based data extraction logic
+├── output                        # Folder for exported CSV/Excel files
 │   └── google_maps_data_hotel_Addis_Ababa.xlsx
-├── README.md
-└── requirements.txt
+├── README.md                     # You're reading it!
+└── requirements.txt              # Python dependencies
