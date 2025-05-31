@@ -43,7 +43,7 @@ git clone https://github.com/getahuntiruneh/google-map-data-scraping.git
 cd google-map-data-scraping
 ```
 ### Project Structure
-google-map-data-scraping
+.google-map-data-scraping
 ├── app.py
 ├── data-extractor.py
 ├── LICENSE
