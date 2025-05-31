@@ -18,7 +18,7 @@ This project allows users to scrape business details such as name, address, phon
 
 Run the app and search for businesses like:
 
-> Example: `Pharmacy` in `Addis Ababa`
+> Example: `Hotel` in `Addis Ababa`
 
 ![Screenshot](docs/demo-screenshot.png) <!-- Optional: Add a screenshot image here -->
 
@@ -43,7 +43,8 @@ git clone https://github.com/getahuntiruneh/google-map-data-scraping.git
 cd google-map-data-scraping
 ```
 ### Project Structure
-.google-map-data-scraping
+```bash
+google-map-data-scraping
 ├── app.py
 ├── data-extractor.py
 ├── LICENSE
